@@ -1,0 +1,66 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-size: 1em;
+}
+
+p {
+  margin: 0;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.main {
+  &__container {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding: 10px;
+    margin: 0;
+  }
+  &__title {
+    font-size: 24px;
+  }
+}
+
+.video {
+  &__container {
+    box-sizing: border-box;
+    position: relative;
+    width: 640px;
+    height: auto;
+    padding: 5px 10px;
+    margin: 20px 0 0;
+  }
+  &__title {
+    font-size: 15px;
+  }
+  &__wrapper {
+    position: relative;
+    margin: 20px 0 0;
+  }
+}
